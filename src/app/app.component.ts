@@ -8,6 +8,8 @@ import { OidcClientNotification, OidcSecurityService, PublicConfiguration } from
 })
 export class AppComponent implements OnInit, OnDestroy {
 
+  //ng update --next @angular/cli --force
+  //npm install typescript@latest
   constructor(public oidcSecurityService: OidcSecurityService) {
   }
 
