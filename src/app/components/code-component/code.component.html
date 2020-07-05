@@ -1,0 +1,19 @@
+<div>
+    <div>
+        <span>code: </span>
+        <span>{{oauth_code}}</span>
+    </div>
+    <div>
+        <span>state: </span>
+        <span>{{state}}</span>
+    </div>
+    <div>
+        <span>error_code: </span>
+        <span>{{error_code}}</span>
+    </div>
+    <div>
+        <span>error_description: </span>
+        <span>{{error_description}}</span>
+    </div>
+    <button (click)="GetTokenSet($event)">GetTokenSet</button>    
+</div>
